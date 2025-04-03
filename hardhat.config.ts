@@ -7,8 +7,8 @@ dotenv.config();
 const config: HardhatUserConfig = {
   solidity: "0.7.6",
   networks: {
-    base_sepolia: {
-      url: process.env.BASE_SEPOLIA_ENDPOINT as string,
+    sepolia: {
+      url: process.env.SEPOLIA_ENDPOINT as string,
       accounts: [process.env.PRIVATE_KEY as string],
     },
   },

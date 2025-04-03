@@ -13,8 +13,8 @@ interface IERC20 {
 contract SingleSwap {
     ISwapRouter public immutable swapRouter;
 
-    address public constant WETH = 0x4200000000000000000000000000000000000006;
-    address public constant LINK = 0xE4aB69C077896252FAFBD49EFD26B5D171A32410;
+    address public constant WETH = 0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14;
+    address public constant LINK = 0x779877A7B0D9E8603169DdbD7836e478b4624789;
 
     IERC20 public wrappedETHToken = IERC20(WETH);
 
